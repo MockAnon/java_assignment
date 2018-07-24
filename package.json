@@ -1,0 +1,23 @@
+{
+  "name": "js_assign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MockAnon/java_assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MockAnon/java_assignment/issues"
+  },
+  "homepage": "https://github.com/MockAnon/java_assignment#readme"
+}
