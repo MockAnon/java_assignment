@@ -32,16 +32,8 @@ client.connect((err) => {
 
         } else{
           console.log("Searching ...");
-          // console.log(result.rows.first_name);
 
-          // console.log(callback(result.rows));
           output = result.rows;
-
-          // let D = output[0].birthdate;
-
-          // var re = D.match(/^\w* \w* \d* \d{4}/);
-          // console.log(re);
-
           console.log(result.rows);
 
 
@@ -53,12 +45,8 @@ client.connect((err) => {
             let date = output[no1].birthdate.toISOString().slice(0, 10);
 ;
 
-            // date = date.match(/\w* \d* \d{4}/)[0];
-            // date = date.toISOString().slice(0, 10);
-
             count += 1;
             let newVar = count + ": " + output[no1].first_name + " " + output[no1].last_name + " born " + date;
-            // "'" + yr + '-' month + '-' + day "'"
             console.log(newVar);
           }
 
